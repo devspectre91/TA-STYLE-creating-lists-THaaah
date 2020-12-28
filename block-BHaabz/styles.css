@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Montserrat:wght@200;400;500;600;700;800;900&display=swap');
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* general styles-------------------------------------------------------- */
+
+body {
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.flex-r {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* styling header-------------------------------------------------------- */
+
+.header {
+    background-color: #323347;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+header a,
+h3 {
+    font-family: 'Acme', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    word-spacing: 4px;
+    margin-left: 40px;
+}
+
+header h1,
+h2 {
+    font-family: 'Acme', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+    line-height: 1.2;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+header h2 {
+    font-size: 24px;
+    color: #E96C77;
+    text-transform: capitalize;
+    font-family: inherit;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+header h3 {
+    margin-left: 0;
+}
+
+.header .fa {
+    margin-right: 4px;
+    color: darkgrey;
+}
+
+/* styling hero--------------------------------------------------------- */
+
+
+.hero {
+    background-image: url(assets/banner.svg),
+        linear-gradient(to right, #323347, #323347);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 60%;
+
+
+    padding-top: 0px;
+    padding-bottom: 140px;
+}
+
+.btn {
+    padding: 10px 30px;
+    margin-top: 20px;
+
+}
+
+.btn-hero {
+    background-color: #E96C78;
+}
+
+.btn-hero h3 {
+    color: white;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
+}
+
+.sub-menu {
+    position: absolute;
+    ;
+    background-color: #FFFFFF;
+
+    border: 1px solid black;
+    top: 25px;
+    left: 120px;
+    display: none;
+
+}
+
+.sub-menu a {
+    color: rgb(112, 107, 107);
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: inherit;
+}
+
+.sub-menu li {
+    border: 1px solid rgb(223, 218, 218);
+    border-right: 0;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+}
+
+.main-menu {
+    position: relative;
+
+}
+
+.drop-down:hover .sub-menu {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* styling main -----------------------------------------------------------*/
+
+/* styling footer ---------------------------------------------------------*/
