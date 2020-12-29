@@ -169,6 +169,14 @@ body {
     margin: 0 auto;
 }
 
+h2,
+h3,
+h4 {
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    color: rgb(78, 77, 77);
+}
+
 /* styling header-------------------------------------------------------- */
 
 .header {
@@ -187,6 +195,13 @@ h3 {
     font-weight: bold;
     word-spacing: 4px;
     margin-left: 40px;
+    letter-spacing: 2px;
+}
+
+.nav h3 {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
 }
 
 header h1,
@@ -256,7 +271,7 @@ header h3 {
     ;
     background-color: #FFFFFF;
 
-    border: 1px solid black;
+    border: 1px solid rgb(78, 77, 77);
     top: 25px;
     left: 120px;
     display: none;
@@ -292,29 +307,345 @@ header h3 {
     display: inline-block;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* styling main -----------------------------------------------------------*/
 
+/* styling features */
+
+.features {
+    background-color: #F5F5F5;
+    padding: 90px 0;
+}
+
+/* stylish header */
+.stylish-header div {
+    flex-basis: 30%;
+    padding: 0;
+
+}
+
+.three-lines {
+    align-items: stretch;
+}
+
+.stylish-header {
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.features h2 {
+
+    color: rgb(78, 77, 77);
+    font-size: 28px;
+    text-align: center;
+
+}
+
+.stylish-header :nth-child(2) {
+    flex-basis: 28%;
+
+
+
+}
+
+.right-margin hr {
+    margin-right: 0;
+
+}
+
+.left-margin hr {
+    margin-left: 0;
+}
+
+.hr1 {
+    width: 50%;
+}
+
+.hr2 {
+    width: 40%;
+}
+
+.hr3 {
+    width: 30%;
+}
+
+/*   */
+
+.description {
+    width: 70%;
+    margin: 20px auto;
+    word-spacing: 2px;
+    text-align: center;
+    color: grey;
+}
+
+
+.features .card-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.features .card {
+    flex-basis: 32%;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    align-items: center;
+
+}
+
+.card p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.7;
+    padding: 20px 0;
+}
+
+.card h3 {
+    font-size: 22px;
+    color: rgb(78, 77, 77);
+    margin-left: 0;
+}
+
+.features .icon {
+    background-image: linear-gradient(to top right, #D1616B 0 50%, #d4838a 50% 100%);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 30px;
+}
+
+.features .fa {
+    color: white;
+}
+
+/* styling variants-------------------------------------------------------------------- */
+.variants {
+    background-color: #E96C77;
+    padding: 90px 0;
+}
+
+.variants h2 {
+    color: white;
+}
+
+.variants h3 {
+    color: white;
+}
+
+.variants p {
+    color: rgb(228, 225, 225);
+}
+
+.variants .stylish-header :nth-child(2) {
+    flex-basis: 35%;
+
+
+}
+
+.variants .card-container {
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.variants .card {
+    flex-basis: 45%;
+    margin-top: 30px;
+    background-color: #EC828C;
+}
+
+.variants .icon {
+    background-image: linear-gradient(to top right, #525360 0 50%, #7f8195 50% 100%);
+
+}
+
+/* styling team section */
+.team {
+    background-color: #FFFFFF;
+}
+
+.team h2,
+h3,
+p {
+    color: rgb(78, 77, 77);
+    padding: 10px 0;
+}
+
+.btn-team {
+    border: 2px solid rgb(173, 172, 172);
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px 10px;
+}
+
+.team .card h3 {
+    color: rgb(78, 77, 77);
+}
+
+.team h4 {
+    color: rgb(78, 77, 77);
+}
+
+
+
+/* styling contact */
+.contact .stylish-header :nth-child(2) {
+    flex-basis: 20%;
+
+
+}
+
+.contact h2,
+h3,
+h4,
+p {
+    color: rgb(78, 77, 77);
+}
+
+.contact .card h3 {
+    color: rgb(78, 77, 77);
+}
+
+.form {
+    background-color: white;
+    width: 70%;
+    margin: 30px auto;
+}
+
+.form-inputs {
+    flex-basis: 48%;
+    align-items: stretch;
+    padding: 40px 25px;
+
+}
+
+
+input {
+    padding: 10px 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(177, 174, 174);
+    font-weight: bold;
+    color: rgb(78, 77, 77);
+}
+
+textarea {
+    padding: 20px 10px;
+    font-weight: bold;
+    color: rgb(78, 77, 77);
+    margin: 10px 0;
+    border: 1px solid rgb(177, 174, 174);
+}
+
+.form-buttons {
+    justify-content: flex-start;
+}
+
+.form-buttons div {
+    border: 2px solid rgb(177, 174, 174);
+    padding: 10px 15px;
+    font-weight: bold;
+    color: rgb(78, 77, 77);
+
+}
+
+#send {
+    background-color: #E96C78;
+    margin-right: 20px;
+    border: 2px solid #E96C78;
+
+}
+
+.contact-details {
+    flex-basis: 48%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 20px 10px 10px;
+}
+
+.icon-circle {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+    display: flex;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(78, 77, 77);
+}
+
+.map-marker {
+    width: 65px;
+}
+
+.contact-details hr {
+    width: 100%;
+    padding: 5px 0;
+    border-bottom: 0;
+    border-left: 0;
+    color: rgb(78, 77, 77);
+    margin-right: 80px;
+
+}
+
+.ico-twitter {
+    background-color: #4EAFDB;
+}
+
+.ico-facebook {
+    background-color: #456BC9;
+}
+
+.ico-linkedin {
+    background-color: #3492D9;
+}
+
+.contact-details p {
+    font-size: 16px;
+    font-weight: 500;
+
+
+}
+
 /* styling footer ---------------------------------------------------------*/
+footer {
+    background-color: #ECECEC;
+    padding: 40px 0;
+}
+
+.bottom-links {
+    padding: 20px 0;
+}
+
+.bottom-links a {
+    color: rgb(78, 77, 77);
+    text-decoration: none;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid rgb(78, 77, 77);
+    font-size: 14px;
+}
+
+.contact-us a {
+    border-right: none;
+}
+
+.fa-copyright {
+    margin-right: 5px;
+    color: rgb(78, 77, 77);
+}
+
+footer p {
+    font-size: 14px;
+    color: rgb(78, 77, 77);
+
+}
+
+.copyright-text {
+    padding-bottom: 60px;
+}
